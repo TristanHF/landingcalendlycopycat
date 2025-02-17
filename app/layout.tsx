@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Software Composer LP - Cursor Template",
-  description: "Create stunning landing pages in minutes with just 3 prompts. Save thousands on design and development with our Cursor-powered template.",
+  title: "EasyMeeting - Easy scheduling ahead",
+  description: "Join 20 million professionals who easily book meetings with the #1 scheduling tool.",
 };
 
 export default function RootLayout({
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   );
